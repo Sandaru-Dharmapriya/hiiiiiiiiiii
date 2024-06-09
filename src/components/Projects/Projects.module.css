@@ -1,0 +1,62 @@
+@import "../../vars.css";
+
+.container {
+  margin-top: 76px;
+  color: var(--color-text);
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.title {
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+}
+
+.projects {
+  margin-top: 37px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start; /* Adjust alignment if needed */
+  justify-content: center;
+  gap: 15px;
+  width: 100%;
+}
+
+/* Adjust the width of the project boxes */
+.project {
+  width: 100%; /* Each project occupies full width */
+  max-width: 600px; /* Maximum width for each project box */
+}
+
+.project .container {
+  /* Adjust styles for each project box if needed */
+}
+
+/* Styles for other elements within the project box can go here */
+
+/* Responsive styles */
+@media screen and (max-width: 600px) {
+  .container {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .title {
+    font-size: 28px; /* Adjust font size for smaller screens */
+    text-align: center; /* Center align the title */
+  }
+
+  .projects {
+    gap: 10px; /* Reduce gap between projects */
+  }
+
+  .project {
+    max-width: 100%; /* Make each project take full width on smaller screens */
+  }
+
+  .project .container {
+    padding: 10px; /* Adjust padding if needed */
+  }
+}

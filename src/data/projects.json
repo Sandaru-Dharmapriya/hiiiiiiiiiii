@@ -1,0 +1,83 @@
+[{
+  "title": "Currency Exchange Web App",
+  "imageSrc": "projects/currency.jpg",
+  "description": "Developed a currency conversion web application using React for the frontend and Express.js for the backend. The app allows users to convert between different currencies by fetching live exchange rate data from the Open Exchange Rates API, ensuring accurate and real-time conversions.",
+  "skills": ["HTML","CSS","React", "Express.js"],
+  "gitLink": "https://github.com/Sandaru-Dharmapriya/Curency_exchange_full_stack_app"
+},
+{
+  "title": "Klinon Studio Website",
+  "imageSrc": "projects/website.jpg",
+  "description": "Creating a static website for Klinon Studio Company using HTML and CSS. Used Bootstrap as framework. The project is ongoing and focuses on a responsive, efficient design.",
+  "skills": ["HTML", "CSS", "Bootstrap","java Script"],
+  "gitLink": "https://github.com/sidugamage/klinon-website"
+},
+{
+  "title": "Portfolio",
+  "imageSrc": "projects/protfolio.jpeg",
+  "description": "Build a portfolio web-site using React and Vite, subsiquently deploing it on an AWS server. Leveraging tools like MobaXterm for efficient file management",
+  "skills": ["React","HTML","CSS","AWS Hosting"],
+  "gitLink": "https://github.com/Sandaru-Dharmapriya/Portfolio-web-site"
+},
+{
+  "title": "API for a Health System",
+  "imageSrc": "projects/healthapi.jpg",
+  "description": "Developed a Health System API enabling patient management, appointment scheduling, medical records, prescriptions, and billing. Focused on REST API with JAX-RS, emphasizing DAO design, logging, RESTful resources, code organization, documentation, and a video demonstration.",
+  "skills": ["Java", "JAX-RS", "DAO","Java OOP"],
+  "gitLink": "https://github.com/Sandaru-Dharmapriya/Application-Programing-Interface-for-health-system"
+},
+  {
+    "title": "ASL to Voice & Text Convert Application",
+    "imageSrc": "projects/project.png",
+    "description": "This is our Software Development Group Project (SDGP) GitHub repository. In here we're committing our work of the Humming Birds sign language converter android app.",
+    "skills": ["React Native", "Python","Machine Learning"],
+    "gitLink": "https://github.com/Sandaru-Dharmapriya/Sign-language-convert-application"
+  },
+  {
+    "title": "Shortest Path Finding Algorithm",
+    "imageSrc": "projects/shortpath.png",
+    "description": "Designed a shortest path finding algorithm for a maze using Java, implementing the BFS concept to locate the destination.",
+    "skills": ["Java","Java OOP","Algorithms and Data Structures"],
+    "gitLink": "https://github.com/Sandaru-Dharmapriya/Shortest-path-finding-algorithm"
+  },
+  
+  {
+    "title": "Modeled and Controlled Robot System",
+    "imageSrc": "projects/robot.png",
+    "description": "Developed a Matlab Simulink model for a mobile robot pushing a shopping trolley. Implemented PID control for precise speed management and navigation.",
+    "skills": ["Matlab", "Simulink"],
+    "gitLink": "https://github.com/Sandaru-Dharmapriya/Modeled-and-Controlled-a-Mobile-Robot-System-using-Matlab-Simulink"
+  },
+  {
+    "title": "Web Site About Tourism",
+    "imageSrc": "projects/tourism.jpg",
+    "description": "Created a dynamic web page focused on tourism, utilizing HTML, CSS, and JavaScript to deliver engaging and interactive content.",
+    "skills": ["HTML", "CSS", "JavaScript"],
+    "gitLink": "https://github.com/Sandaru-Dharmapriya/Web-site-about-tourism"
+  },
+  {
+    "title": "Shop Management System",
+    "imageSrc": "projects/shop.jpg",
+    "description": "Created a shop management system for adding/removing products, monitoring inventory, and managing stock with a Java Swing GUI.",
+    "skills": ["Java", "Java Swing","java OOP"],
+    "gitLink": "https://github.com/Sandaru-Dharmapriya/Shop-management-system"
+  },
+  
+  
+  {
+    "title": "Queue Management System",
+    "imageSrc": "projects/queue.jpg",
+    "description": "Implemented a queue management system for shops, facilitating the management of queues, updating queue status, removing customers, and tracking remaining customers. Developed using Java programming language.",
+    "skills": ["Java","Java OOP"],
+    "gitLink": "https://github.com/Sandaru-Dharmapriya/Queue-management-system"
+  },
+  {
+    "title": "University Grading System",
+    "imageSrc": "projects/grading.jpg",
+    "description": "Built Python uni grading system: manages grades, offers performance insights, and auto-calculates class rankings.",
+    "skills": ["Python"],
+    "gitLink": ""
+  }
+  
+  
+]

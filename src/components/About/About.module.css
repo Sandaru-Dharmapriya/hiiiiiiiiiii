@@ -1,0 +1,103 @@
+@import "../../vars.css";
+
+.container {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.237);
+  border-radius: 15px;
+  padding: 73px;
+  margin-top: 0px;
+  z-index: 1;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.title {
+  color: var(--color-text);
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0; /* Start with opacity 0 */
+  }
+  to {
+    opacity: 1; /* Fade in to opacity 1 */
+  }
+}
+
+.aboutImage {
+  width: 40%;
+  animation-name: fadeIn; 
+  animation-duration: 3.5s; /* Change animation duration to 3.5 seconds */
+  animation-iteration-count: 1; /* Add animation iteration count */
+  animation-timing-function: ease-in-out; /* Add animation timing function */
+  margin-left: -65px;
+  margin-top: 0px;
+}
+
+.aboutItems {
+  color: var(--color-text);
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.aboutItem p {
+  font-size: 25px;
+}
+
+p {
+  color: aliceblue;
+  font-size: 37px;
+  padding-top: 80px;
+  margin-left: 50px;
+  margin-top: -70px;
+}
+
+@media screen and (max-width: 830px) {
+  .container {
+    padding: 20px; /* Add padding for better mobile spacing */
+    margin-left: 5%; /* Reduce margin for smaller screens */
+    margin-right: 5%;
+  }
+
+  .title {
+    font-size: 25px; /* Adjust font size for smaller screens */
+    text-align: center; /* Center title on mobile */
+  }
+
+  .content {
+    flex-direction: column;
+    align-items: center; /* Center content on mobile */
+  }
+
+  .aboutImage {
+    width: 80%; /* Scale image to fit better on smaller screens */
+    margin-left: 0; /* Adjust margins for mobile */
+    margin-top: 20px; /* Add margin top for better spacing */
+  }
+
+  .aboutItems {
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .aboutItem p {
+    font-size: 20px; /* Adjust font size for readability on mobile */
+  }
+
+  p {
+    font-size: 25px; /* Adjust font size for smaller screens */
+    margin-left: 0; /* Remove left margin for better mobile view */
+    padding-top: 20px; /* Adjust padding top for mobile */
+  }
+}

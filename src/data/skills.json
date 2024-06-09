@@ -1,0 +1,34 @@
+[
+    {
+      "title": "HTML",
+      "imageSrc": "skills/html.png"
+    },
+    {
+      "title": "CSS",
+      "imageSrc": "skills/css.png"
+    },
+    {
+      "title": "React",
+      "imageSrc": "skills/react.png"
+    },
+    {
+      "title": "java",
+      "imageSrc": "skills/j.png"
+    },
+    {
+      "title": "python",
+      "imageSrc": "skills/python.png"
+    },
+    {
+      "title": "Figma",
+      "imageSrc": "skills/figma.png"
+    }
+    , {
+      "title": "MYSQL",
+      "imageSrc": "skills/mysql.png"
+    }
+    , {
+      "title": "GIT Hub",
+      "imageSrc": "skills/github.png"
+    }
+  ]
