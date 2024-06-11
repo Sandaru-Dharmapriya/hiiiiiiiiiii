@@ -42,32 +42,33 @@
 .link a {
   color: var(--color-text);
   text-decoration: none;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 400;
   letter-spacing: 1.5px;
 }
 
 @media screen and (max-width: 830px) {
   .container {
-    flex-direction: row; /* Maintain row direction */
+    flex-direction: column; /* Change to column for better stacking */
     padding: 20px 5%; /* Adjust padding for mobile */
-    gap: 5px; /* Reduce gap for mobile */
-    flex-wrap: wrap; /* Allow wrapping */
-    justify-content: center; /* Center content */
+    gap: 15px; /* Reduce gap for mobile */
   }
 
   .text h2 {
     font-size: 30px; /* Scale down font size */
     letter-spacing: 2px; /* Adjust letter spacing */
+    text-align: center; /* Center text for mobile */
   }
 
   .text p {
+    margin-top: 20px;
     font-size: 18px; /* Scale down font size */
     letter-spacing: 1px; /* Adjust letter spacing */
+    text-align: center; /* Center text for mobile */
   }
 
   .links {
-    align-items: flex-start; /* Keep alignment */
+    align-items: center; /* Center align links for mobile */
     gap: 15px; /* Adjust gap */
   }
 
@@ -76,7 +77,8 @@
   }
 
   .link a {
-    font-size: 20px; /* Scale down font size */
+    font-size: 13px; /* Scale down font size */
     letter-spacing: 1px; /* Adjust letter spacing */
+    text-align: center; /* Center link text for mobile */
   }
 }

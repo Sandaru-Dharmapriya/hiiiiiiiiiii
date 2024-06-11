@@ -81,7 +81,8 @@
   }
 
   .description {
-    font-size: 14px; /* Adjust font size for smaller screens */
+    font-size: 14px;
+    margin-top: 11px; /* Adjust font size for smaller screens */
   }
 
   .skills {
